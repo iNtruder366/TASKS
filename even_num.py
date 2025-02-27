@@ -1,8 +1,8 @@
-n=5
+n=10
+i=0
 li=[]
-i=1
-while(i<=5):
+while(i<n):
     if i%2==0:
         li.append(i)
     i=i+1
-print(li,end=" ")
+print(li,end="")
